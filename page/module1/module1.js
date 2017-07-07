@@ -47,15 +47,11 @@ Page({
     wx.request({
       url: '',
       data: {
-
       },
       header: {
-
-
       },
       success: function(response){
        console.log(response.data)
-
       }
     })
 
