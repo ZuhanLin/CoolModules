@@ -42,6 +42,10 @@ Page({
   onShow () {
     // 执行coolsite360交互组件展示
     app.coolsite360.onShow(this);
+
+    wx.makePhoneCall({
+      phoneNumber: '1340000' //仅为示例，并非真实的电话号码
+    })
   },
 
   /**
