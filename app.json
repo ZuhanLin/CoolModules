@@ -1,0 +1,57 @@
+{
+  "debug": true, 
+  "window": {
+    "navigationBarTextStyle": "white", 
+    "navigationBarBackgroundColor": "#000000", 
+    "navigationBarTitleText": "", 
+    "backgroundColor": "#ffffff", 
+    "enablePullDownRefresh": false, 
+    "backgroundTextStyle": "dark"
+  }, 
+  "pages": [
+    "page/module1/module1", 
+    "page/module2/module2", 
+    "page/module3/module3", 
+    "page/module4/module4", 
+    "page/module5/module5"
+  ], 
+  "tabBar": {
+    "color": "#7F8389", 
+    "selectedColor": "#09BB07", 
+    "list": [
+      {
+        "text": "\u6a21\u677f1", 
+        "pagePath": "page/module1/module1", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png"
+      }, 
+      {
+        "text": "\u6a21\u677f2", 
+        "pagePath": "page/module2/module2", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png"
+      }, 
+      {
+        "text": "\u6a21\u677f3", 
+        "pagePath": "page/module3/module3", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png"
+      }, 
+      {
+        "text": "\u6a21\u677f4", 
+        "pagePath": "page/module4/module4", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png"
+      }, 
+      {
+        "text": "\u6a21\u677f5", 
+        "pagePath": "page/module5/module5", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png"
+      }
+    ], 
+    "backgroundColor": "#F7F7FA", 
+    "position": "bottom", 
+    "borderStyle": "black"
+  }
+}
